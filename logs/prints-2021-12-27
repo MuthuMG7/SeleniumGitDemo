@@ -1,0 +1,7 @@
+14:10:48.893 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x2a92e8e6936138f7
+14:10:49.079 [main] INFO  com.resources.Base - Driver is Intialized
+14:10:53.159 [main] INFO  com.resources.Base - Navigated to HomePage
+14:11:01.918 [main] INFO  com.resources.Base - Successfullu Validated Text Message
+14:11:14.735 [main] INFO  com.resources.Base - Navigation Bar is Displayed
+14:11:30.453 [main] INFO  com.resources.Base - Navigated to HomePage
+14:11:34.023 [main] INFO  com.resources.Base - Gmail

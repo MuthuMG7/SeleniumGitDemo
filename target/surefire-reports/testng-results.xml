@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-27T14:10:39 IST" name="Suite" finished-at="2021-12-27T14:11:42 IST" duration-ms="62377">
+    <groups>
+    </groups>
+    <test started-at="2021-12-27T14:10:39 IST" name="Validating Title in the page" finished-at="2021-12-27T14:11:02 IST" duration-ms="22644">
+      <class name="Framework_Scratch.Frameworks_E2EProject.ValidateTitle">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Framework_Scratch.Frameworks_E2EProject.ValidateTitle@65f87a2c]" started-at="2021-12-27T14:10:39 IST" name="initialize" finished-at="2021-12-27T14:11:01 IST" duration-ms="21573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateAppTitle()[pri:0, instance:Framework_Scratch.Frameworks_E2EProject.ValidateTitle@65f87a2c]" started-at="2021-12-27T14:11:01 IST" name="validateAppTitle" finished-at="2021-12-27T14:11:01 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppTitle -->
+        <test-method signature="validateHeader()[pri:0, instance:Framework_Scratch.Frameworks_E2EProject.ValidateTitle@65f87a2c]" started-at="2021-12-27T14:11:01 IST" name="validateHeader" finished-at="2021-12-27T14:11:02 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeader -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Framework_Scratch.Frameworks_E2EProject.ValidateTitle@65f87a2c]" started-at="2021-12-27T14:11:02 IST" name="tearDown" finished-at="2021-12-27T14:11:02 IST" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Framework_Scratch.Frameworks_E2EProject.ValidateTitle -->
+    </test> <!-- Validating Title in the page -->
+    <test started-at="2021-12-27T14:11:03 IST" name="Validating Navigation Bar in home page" finished-at="2021-12-27T14:11:15 IST" duration-ms="11718">
+      <class name="Framework_Scratch.Frameworks_E2EProject.ValidateNavigationBar">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Framework_Scratch.Frameworks_E2EProject.ValidateNavigationBar@1d572e62]" started-at="2021-12-27T14:11:03 IST" name="initialize" finished-at="2021-12-27T14:11:14 IST" duration-ms="10782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateAppNavBar()[pri:0, instance:Framework_Scratch.Frameworks_E2EProject.ValidateNavigationBar@1d572e62]" started-at="2021-12-27T14:11:14 IST" name="validateAppNavBar" finished-at="2021-12-27T14:11:14 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppNavBar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Framework_Scratch.Frameworks_E2EProject.ValidateNavigationBar@1d572e62]" started-at="2021-12-27T14:11:14 IST" name="tearDown" finished-at="2021-12-27T14:11:15 IST" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Framework_Scratch.Frameworks_E2EProject.ValidateNavigationBar -->
+    </test> <!-- Validating Navigation Bar in home page -->
+    <test started-at="2021-12-27T14:11:15 IST" name="Validating User Login" finished-at="2021-12-27T14:11:41 IST" duration-ms="26469">
+      <class name="Framework_Scratch.Frameworks_E2EProject.HomePageTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Framework_Scratch.Frameworks_E2EProject.HomePageTest@58dea0a5]" started-at="2021-12-27T14:11:15 IST" name="initialize" finished-at="2021-12-27T14:11:20 IST" duration-ms="4773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Framework_Scratch.Frameworks_E2EProject.HomePageTest@58dea0a5]" started-at="2021-12-27T14:11:20 IST" name="basePageNavigation" data-provider="getData" finished-at="2021-12-27T14:11:35 IST" duration-ms="14959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Muthupattu7@gamil.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Muthugmail]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gmail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Framework_Scratch.Frameworks_E2EProject.HomePageTest@58dea0a5]" started-at="2021-12-27T14:11:35 IST" name="basePageNavigation" data-provider="getData" finished-at="2021-12-27T14:11:41 IST" duration-ms="6514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MuthuPattu7@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Muthuyahoo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Yahoo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Framework_Scratch.Frameworks_E2EProject.HomePageTest@58dea0a5]" started-at="2021-12-27T14:11:41 IST" name="tearDown" finished-at="2021-12-27T14:11:41 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Framework_Scratch.Frameworks_E2EProject.HomePageTest -->
+    </test> <!-- Validating User Login -->
+    <test started-at="2021-12-27T14:11:42 IST" name="App Testing" finished-at="2021-12-27T14:11:42 IST" duration-ms="0">
+    </test> <!-- App Testing -->
+  </suite> <!-- Suite -->
+</testng-results>
