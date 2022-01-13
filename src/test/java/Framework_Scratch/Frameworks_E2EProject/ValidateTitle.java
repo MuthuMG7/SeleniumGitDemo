@@ -41,6 +41,13 @@ public class ValidateTitle extends Base {
 
 	}
 
+	public void validateHeader_1() {
+		// landingPage = new LandingPage(driver);
+		Assert.assertEquals(landingPage.getHeader().getText(), "AN ACADEMY TO LEARN EVERYTHING ABOUT TESTING".toLowerCase());
+	//	log.info("Successfullu Validated Text Message");
+
+	} 
+	
 	@AfterTest
 	public void tearDown() {
 		driver.close();
