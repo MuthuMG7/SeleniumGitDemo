@@ -60,8 +60,5 @@ public class HomePageTest extends Base {
 	public void tearDown() {
 		driver.close();
 	}
-
-	// merged changes
-// new line for test
-
+	// new test needs to added by akila
 }
