@@ -60,4 +60,6 @@ public class HomePageTest extends Base {
 	public void tearDown() {
 		driver.close();
 	}
+
+
 }
