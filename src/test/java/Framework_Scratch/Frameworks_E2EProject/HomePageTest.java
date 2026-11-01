@@ -61,6 +61,7 @@ public class HomePageTest extends Base {
 		driver.close();
 	}
 
-
+	// merged changes
 // new line for test
+
 }
